@@ -2,19 +2,22 @@
 
 function run(){
     $viewData = array(
-      "cuenta"=>"0801198412349",
-      "nombre"=>"Orlando J Betancourth",
-      "correo"=>"obetancourthunicah@gmail.com"
+        "id"=>"1501-1997-04121",
+        "nombre"=>"Zoila Consuelo Cibrian Matute",
+        "correo"=>"zoilacibrianm1920@gmail.com"
     );
-    $proyectos = array(
-      array("id"=>"1", "name"=>"Negocios CMS"),
-      array("id" => "2", "name" => "Negocios ERP"),
-      array("id" => "3", "name" => "Negocios RRHH")
+   
+    
+
+    $educacion = array(
+        array("Escuela"=>"Pompilio Aguiluz Mena"),
+        array("Instituto"=>"La Paz"),
+        array("Universidad"=> "Universidad Católica de Honduras"),
     );
-    $viewData["proyectos"] = $proyectos;
+    
+    $viewData["educacion"] = $educacion;
     renderizar("about", $viewData);
 }
-
 run();
 
-?>
+?> 
