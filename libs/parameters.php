@@ -13,8 +13,8 @@
  * @link http://url.com
  */
 $server = "127.0.0.1";
-$user = "konekochan";
-$pswd = "sup3rGat0";
+$user = "root";
+$pswd = "";
 $database = "nw202003";
 $port = "3306";
 
@@ -23,7 +23,7 @@ $smtpUser = 'amazonwebuserkey';
 $smtpSecret = 'smtpscreteer';
 $smtpPort = "587";
 
-$host_server = 'http://localhost/mvc2/';
+$host_server = 'http://localhost/mvc/';
 if (isset($_SERVER["SERVER_MVC"])) {
     $host_server = $_SERVER["SERVER_MVC"];
 }
